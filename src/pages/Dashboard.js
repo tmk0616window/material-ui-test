@@ -4,7 +4,6 @@ import {
   Container,
   Grid
 } from '@material-ui/core';
-import Budget from 'src/components/dashboard//Budget';
 import LatestOrders from 'src/components/dashboard//LatestOrders';
 import LatestProducts from 'src/components/dashboard//LatestProducts';
 import Sales from 'src/components/dashboard//Sales';
@@ -36,7 +35,7 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <Budget />
+            {/* <Budget /> */}
           </Grid>
           <Grid
             item
