@@ -13,7 +13,7 @@ import {
 } from '@material-ui/core';
 import {
   AlertCircle as AlertCircleIcon,
-  BarChart as BarChartIcon,
+  // BarChart as BarChartIcon,
   Lock as LockIcon,
   Settings as SettingsIcon,
   ShoppingBag as ShoppingBagIcon,
@@ -32,7 +32,7 @@ const user = {
 const items = [
   {
     href: '/app/dashboard',
-    icon: BarChartIcon,
+    // icon: BarChartIcon,
     title: 'Dashboard'
   },
   {

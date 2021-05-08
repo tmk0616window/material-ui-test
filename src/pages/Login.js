@@ -60,7 +60,7 @@ const Login = () => {
                     color="textPrimary"
                     variant="h2"
                   >
-                    Sign in
+                    Sign
                   </Typography>
                   <Typography
                     color="textSecondary"
