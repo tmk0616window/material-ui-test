@@ -7,7 +7,6 @@ import {
 import LatestOrders from 'src/components/dashboard//LatestOrders';
 import LatestProducts from 'src/components/dashboard//LatestProducts';
 import Sales from 'src/components/dashboard//Sales';
-import TasksProgress from 'src/components/dashboard//TasksProgress';
 import TotalProfit from 'src/components/dashboard//TotalProfit';
 import TrafficByDevice from 'src/components/dashboard//TrafficByDevice';
 
@@ -53,7 +52,7 @@ const Dashboard = () => (
             xl={3}
             xs={12}
           >
-            <TasksProgress />
+            {/* <TasksProgress /> */}
           </Grid>
           <Grid
             item
