@@ -19,7 +19,7 @@ import {
   ShoppingBag as ShoppingBagIcon,
   User as UserIcon,
   UserPlus as UserPlusIcon,
-  Users as UsersIcon
+  // Users as UsersIcon
 } from 'react-feather';
 import NavItem from './NavItem';
 
@@ -33,13 +33,13 @@ const items = [
   {
     href: '/app/dashboard',
     // icon: BarChartIcon,
-    title: 'Dashboard'
+    title: 'ダッシュボード'
   },
-  {
-    href: '/app/customers',
-    icon: UsersIcon,
-    title: 'Customers'
-  },
+  // {
+  //   href: '/app/customers',
+  //   icon: UsersIcon,
+  //   title: 'Customers'
+  // },
   {
     href: '/app/products',
     icon: ShoppingBagIcon,
